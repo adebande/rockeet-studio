@@ -11,7 +11,7 @@ const Index = () => (
         <meta name="description" content="Rockeet.io est une agence spécialisée dans le développement de sites internet, applications web et mobile."></meta>
         <meta property="og:url" content="https://rockeet.io" />
         <meta property="og:title" content="Rockeet.io"/>
-        <meta property="og:description" content="Rockeet.io est une agence spécialisée dans le développement de sites internet, applications web et mobile." />
+        <meta property="og:description" content="Développement de sites internet, applications web et mobile." />
         <meta property="og:image" content="https://rockeet.io/fb-img.png"/>
 
     </Head>
