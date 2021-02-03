@@ -20,7 +20,7 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
           setLoading(false)
-          window.alert(message="Une erreur est survenue lors de la soumission du formulaire. Veuillez réessayer ultérieurement.");
+          window.alert("Une erreur est survenue lors de la soumission du formulaire. Veuillez réessayer ultérieurement.");
       });
   }
 

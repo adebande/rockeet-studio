@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
 
 html, body {
-    width: 100%;
+    width: 100vw;
     font-family: 'Montserrat', sans-serif;
     background-color: #060921;
     color: #f7f7f7;
@@ -316,6 +316,117 @@ input:focus, textarea:focus
     width: 200px;
     padding: 0px 15px ! important;
 }
+
+@media (max-width: 767px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #logo {
+        height: auto;
+    }
+
+    #cta-left {
+        display: none;
+    }
+
+    #cta {
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+        height: 70vh;
+    }
+
+    #cta-right {
+        width: 100%;
+    }
+
+    #cta-right p {
+        width: 100%;
+    }
+
+    #scroll-down {
+        text-align: center;
+    }
+
+    #scroll-down a {
+        float: none;
+        margin-right: 0px;
+    }
+
+    #strengths {
+        height: auto;
+        padding-top: 50px;
+    }
+    
+    .strength {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .strength-text {
+        margin: 50px 0px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    
+    .icon-container {
+        width: 250px;
+    }
+
+    .icon-container img {
+        width: 50%;
+    }
+
+    .scroll-section {
+        display: none;
+    }
+
+    #prestations {
+        height: auto;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #prestations-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .prestation {
+        width: 80%;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .prestation img {
+        width: 50%;
+    }
+
+    #contact-title {
+        margin-top: 25px;
+    }
+
+    #website {
+        display: none;
+    }
+
+    form {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .flex-row {
+        height: auto;
+    }
+    
+ }
 
 /*Animations*/
 
