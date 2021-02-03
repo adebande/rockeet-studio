@@ -8,7 +8,12 @@ const Index = () => (
   <div>
     <Head>
         <title>Rockeet Studio - Développement Web - Création de sites internet</title>
-        <meta name="description" content="Roocket.io est une agence spécialisée dans le développement de sites internet, applications web et mobile."></meta>
+        <meta name="description" content="Rockeet.io est une agence spécialisée dans le développement de sites internet, applications web et mobile."></meta>
+        <meta property="og:url" content="https://rockeet.io" />
+        <meta property="og:title" content="Rockeet.io"/>
+        <meta property="og:description" content="Rockeet.io est une agence spécialisée dans le développement de sites internet, applications web et mobile." />
+        <meta property="og:image" content="https://rockeet.io/fb-img.png"/>
+
     </Head>
     <div id="header">
         <div id="logo">
