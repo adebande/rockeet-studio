@@ -9,6 +9,7 @@ const Index = () => (
     <Head>
         <title>Rockeet Studio - Développement Web - Création de sites internet</title>
         <meta name="description" content="Rockeet.io est une agence spécialisée dans le développement de sites internet, applications web et mobile."></meta>
+        <link rel="shortcut icon" href="/favicon.png" />
     </Head>
     <div id="header">
         <div id="logo">
